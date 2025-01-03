@@ -129,7 +129,6 @@ async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
 
     return True
 
-
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     """Set up the IPX800v4."""
     hass.data.setdefault(DOMAIN, {})
@@ -274,7 +273,6 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
 
     return True
 
-
 async def async_unload_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     """Unload a config entry."""
     for component in PLATFORMS:
@@ -397,11 +395,9 @@ def build_device_list(devices_config: list) -> list:
         )
     return devices
 
-
 def filter_device_list(devices: list, component: str) -> list:
     """Filter device list by component."""
     return list(filter(lambda d: d[CONF_COMPONENT] == component, devices))
-
 
 def check_api_auth(request, host, password) -> bool:
     """Check authentication on API call."""

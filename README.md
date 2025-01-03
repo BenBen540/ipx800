@@ -1,9 +1,11 @@
 # ipx800v4 component for Home Assistant
 
-![GitHub release (with filter)](https://img.shields.io/github/v/release/aohzan/ipx800v5) ![GitHub](https://img.shields.io/github/license/aohzan/ipx800v5) [![Donate](https://img.shields.io/badge/$-support-ff69b4.svg?style=flat)](https://github.com/sponsors/Aohzan) [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/BenBen540/ipx800) [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
 
 This a _custom component_ for [Home Assistant](https://www.home-assistant.io/).
 The `ipx800v4` integration allows you to get information and control the [IPX800 v4 and its extensions](http://gce-electronics.com/).
+
+Thanks to @Aohzan for his great work.
 
 ![README en français](README.fr.md) :fr:
 
@@ -41,7 +43,8 @@ You can control by setting the type of the device:
 - `x4fp` as climate
 - `counter` as sensor or number
 
-## Example
+## Configuration
+Configuration previously in configuration.yaml has been moved to config flow but previous configuration file can be imported
 
 ```yaml
 # Example configuration.yaml entry

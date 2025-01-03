@@ -1,4 +1,7 @@
 # Changelog
+## 3.8.5
+
+- Add interface for configuring integration 
 
 ## 3.8.4
 

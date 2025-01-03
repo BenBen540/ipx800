@@ -1,5 +1,10 @@
 {
   "name": "GCE IPX800 V4",
-  "country": "FR",
-  "render_readme": true
+  "slug":"IPX800v4",
+  "render_readme": true,
+  "documentation": "https://github.com/BenBen540/ipx800/blob/master/README.md",
+  "issue_tracker": "https://github.com/BenBen540/ipx800/issues",
+  "homeassistant": "2021.10.0",
+  "codeowners": ["@monutilisateur"],
+  "requirements": ["pypx800==1.2.3"]
 }

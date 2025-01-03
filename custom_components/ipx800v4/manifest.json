@@ -2,17 +2,18 @@
   "domain": "ipx800v4",
   "name": "GCE IPX800 V4",
   "codeowners": [
-    "@Aohzan"
+    "@Aohzan",
+    "@BenBen540"
   ],
   "config_flow": true,
   "dependencies": [
     "http"
   ],
-  "documentation": "https://github.com/Aohzan/ipx800",
+  "documentation": "https://github.com/BenBen540/ipx800",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/Aohzan/ipx800/issues",
+  "issue_tracker": "https://github.com/BenBen540/ipx800/issues",
   "requirements": [
     "pypx800==2.5.1"
   ],
-  "version": "3.8.4"
+  "version": "3.8.5"
 }
